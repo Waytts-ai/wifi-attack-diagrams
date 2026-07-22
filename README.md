@@ -149,15 +149,3 @@ address.
 Each diagram is a React + [Framer Motion](https://www.framer.com/motion/) component
 rendered on the site; the files here are captures of those. To see them running —
 and to read the write-up each one belongs to — go to **[wifithreatwatch.com/diagrams](https://wifithreatwatch.com/diagrams)**.
-
-## Regenerating
-
-These files are generated, not hand-edited. In the website repo:
-
-```sh
-npm run figures
-```
-
-That rescans the figure components, recaptures every still, GIF and MP4, and
-rewrites this repo's contents. Commit and push from `social-kit/github-repo`
-afterwards — it is a separate repo from the website.
